@@ -1,0 +1,15 @@
+list=[25, 32, 55, 78,96]
+print(list)
+
+fruits =["apple", "banana", "watermelon", "kiwi", "grapes"]
+print(fruits)
+fruits.append("orange")
+print(fruits)
+
+l1=[12,24,52,78,96666,56]
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
+l1.insert(777777,10000)
+print(l1)
