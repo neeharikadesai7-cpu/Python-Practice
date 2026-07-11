@@ -28,3 +28,6 @@ print (info.items())
 print(info.get("name"))
 
 print(list(info.keys()))
+
+null_dict = {}
+print(null_dict)
