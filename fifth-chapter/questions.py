@@ -47,9 +47,7 @@ x= 36
 i = 0
 while i < len(num):
     if num[i] ==x:
-        print("Found the number!" ,num[i])
-    else:
-        print("not found")
+        print("Found the number!" ,i)
     i += 1
 
 
