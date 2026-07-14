@@ -1,9 +1,12 @@
+#1
 for i in range(1,101,1):
     print(i)
 
+#2
 for i in range(100,0,-1):
     print(i)
 
+#3
 x= int(input("Enter a number:"))
 
 for i in range(1, 11,):
@@ -17,6 +20,7 @@ for i in range(1, n+1):
 
 print("Total sum=", sum)
 
+#4
 n= int(input("Enter a number:"))
 
 factorial = 1
