@@ -1,3 +1,5 @@
-f = open("demo.txt" ,"r")
-
+f = open("dem.txt" , "r")
 data = f.read()
+print(data)
+print(type(data))
+f.close()
