@@ -7,3 +7,14 @@ with  open("dem.txt" , "r") as f:
     
 
     print(type(line1))
+
+f= open("sample.txt" , "w")
+f.close()
+
+with open("dem.txt","r+") as f:
+
+    f.write("abc")
+    f.close()
+
+import os
+os.remove("sample.txt")
