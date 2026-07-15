@@ -1,1 +1,3 @@
-Hiiiii
+Hiiiii I am Neeharika
+And i am learning python from apna_college
+And i am on second last topic of python
