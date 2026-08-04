@@ -1,44 +1,59 @@
-#Single inheritance
+# #Single inheritance
 
-class School:
-    medium = "English"
+# class School:
+#     medium = "English"
 
-    @staticmethod
-    def open():
-        print("School is open")
+#     @staticmethod
+#     def open():
+#         print("School is open")
 
-    @staticmethod
-    def close():
-        print("School is closed")
-
-
-class CSV(School):
-    def __init__(self, review):
-        self.review = review
+#     @staticmethod
+#     def close():
+#         print("School is closed")
 
 
-s1 = CSV("Good")     # Create a CSV object
-print(s1.review)
-s1.open()
+# class CSV(School):
+#     def __init__(self, review):
+#         self.review = review
 
-#2 
 
-class Car():
-    @staticmethod
-    def start():
-        print("Car started")
+# s1 = CSV("Good")     # Create a CSV object
+# print(s1.review)
+# s1.open()
 
-    @staticmethod
-    def stop():
-        print("Car stopped")
+# #2 
 
-class ToyatoCar(Car):
-    def __init__(self , brand):
-        self.brand = brand
+# class Car():
+#     @staticmethod
+#     def start():
+#         print("Car started")
 
-class Fortuner(ToyatoCar):
-    def __init__(self,type):
+#     @staticmethod
+#     def stop():
+#         print("Car stopped")
+
+# class ToyatoCar(Car):
+#     def __init__(self , brand):
+#         self.brand = brand
+
+# class Fortuner(ToyatoCar):
+#     def __init__(self,type):
         
+
+class A:
+    varA = "Welcome to class A"
+
+class B:
+    varB = "Welcome to class B"
+
+class C(A, B):
+    varC = "Welcome t class C"
+
+c1 = C()
+
+print(c1.varA)
+print(c1.varC)
+print(c1.varB)
     
 
 

@@ -12,3 +12,4 @@ class Student:
 
 s1 = Student("Kim Namjoon", [99,98,98])
 s1.get_avg()
+
