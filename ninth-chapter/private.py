@@ -1,14 +1,21 @@
 class Person:
     name = "anonymous"
 
-p1 = Person()
+    def __hello(self): 
+        return f"Hello, my name is {self.name}"
 
+    def greeting(self):
+        return self.__hello()
+
+p1 = Person()
 print(p1.name)
 
+print(p1.greeting())
 
 class Person:
-    __name = "anonymous"
+    def __init__(self, name):
+        self.__name = name
 
-p1 = Person()
+p1 = Person("Alice")
 
 print(p1.__name)

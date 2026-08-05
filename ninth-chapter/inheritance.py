@@ -4,7 +4,6 @@ class Car:
     def start():
         print("Car started")
 
-
     @staticmethod
     def stop():
         print("Car stopped")
@@ -18,6 +17,8 @@ car2 = ToyatoCar("pirus")
 
 print(car1.start())
 print(car1.color)
+
+print(car2.name)
 
 
      
